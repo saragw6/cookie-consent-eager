@@ -35,7 +35,8 @@
       "link": {
         "title": "Learn More Link URL",
         "type": "string",
-        "default": ""
+        "default": "",
+        "description": "Provide a link to you cookie policy, if you'd like."
       },
       "learnMore": {
         "title": "Learn More Link Text",
@@ -47,6 +48,7 @@
       "theme": {
         "title": "Theme",
         "type": "string",
+        "description": "Choose a color scheme and position.",
         "enum": [
           "false",
           "dark-top",
